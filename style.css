@@ -12,7 +12,6 @@ body {
     text-align: center;
     font-family: 'Indie Flower', cursive;
     color: #4ECCA3;
-    position: relative;
 }
 .container {
     margin: 64px 24px 0;
@@ -60,7 +59,7 @@ main a:hover {
     outline: 2px solid #FAF1D8;
 }
 .attribution {
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     bottom: 24px;
