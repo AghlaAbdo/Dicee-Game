@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #393E46;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #4ECCA3;
+    position: relative;
+}
+.container {
+    margin: 64px 24px 0;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+}
+h3 {
+    font-size: 2rem;
+}
+span {
+    color: #FAF1D8;
+}
+.players {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+.img-container {
+    margin-top: 32px;
+    width: 200px;
+    height: 200px;
+    background-image: url(images/dice1.png);
+    background-size: cover;  
+}
+main a {
+    color: #FAF1D8;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    display: block;
+    margin: 50px auto;
+    text-decoration: none;
+    background-color: rgba(78, 204, 162, 0.75);
+    width: fit-content;
+    padding: 16px 40px;
+    border-radius: 32px;
+    transition: .25s;
+}
+main a:hover {
+    background-color: transparent;
+    color: #4ECCA3;
+    outline: 2px solid #FAF1D8;
+}
+.attribution {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 24px;
+}
+.attribution a {
+    font-size: 12px;
+    color: #FAF1D8;
+}
+@media (max-width: 470px) {
+    .img-container {
+        width: 110px;
+        height: 110px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    main a {
+        font-size: 1.2rem;
+    }
+}
